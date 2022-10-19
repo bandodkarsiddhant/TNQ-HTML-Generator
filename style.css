@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+  background: #efefef;
+}
+#json-generator {
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#json-generator div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#json-generator p {
+  height: 40px;
+  width: 110px;
+  position: relative;
+  background: #dae8fc;
+  text-align: start;
+  right: 243px;
+  border-bottom: none;
+  text-align: center;
+  padding: 10px 0px;
+}
+#json-generator textarea {
+  outline: none;
+  resize: none;
+  font-size: 15px;
+}
+#json-generator button {
+  border: none;
+  background: #e1d5e7;
+  padding: 10px 30px;
+  margin: 10px auto;
+  color: black;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: solid 1px;
+  transform: translateX(230px);
+  box-shadow: 3px 5px 1px 1px #968c9a;
+  text-transform: capitalize;
+}
